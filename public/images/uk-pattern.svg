@@ -1,0 +1,53 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="uk-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Small Union Jack Pattern -->
+      <g opacity="0.15">
+        <!-- Background -->
+        <rect x="0" y="0" width="100" height="100" fill="#00247D"/>
+        
+        <!-- St. George's Cross (White) -->
+        <rect x="40" y="0" width="20" height="100" fill="#FFFFFF"/>
+        <rect x="0" y="40" width="100" height="20" fill="#FFFFFF"/>
+        
+        <!-- St. George's Cross (Red) -->
+        <rect x="45" y="0" width="10" height="100" fill="#CF142B"/>
+        <rect x="0" y="45" width="100" height="10" fill="#CF142B"/>
+        
+        <!-- St. Andrew's Cross (White) -->
+        <polygon points="0,0 15,0 100,85 100,100" fill="#FFFFFF"/>
+        <polygon points="0,100 15,85 100,0 100,15" fill="#FFFFFF"/>
+        
+        <!-- St. Patrick's Cross (Red) -->
+        <polygon points="0,10 10,0 100,90 100,100 90,100 0,10" fill="#CF142B"/>
+        <polygon points="0,90 10,100 100,10 100,0 90,0 0,90" fill="#CF142B"/>
+      </g>
+      
+      <!-- Gold Accents -->
+      <circle cx="0" cy="0" r="3" fill="#FFD700" opacity="0.3"/>
+      <circle cx="100" cy="0" r="3" fill="#FFD700" opacity="0.3"/>
+      <circle cx="0" cy="100" r="3" fill="#FFD700" opacity="0.3"/>
+      <circle cx="100" cy="100" r="3" fill="#FFD700" opacity="0.3"/>
+      <circle cx="50" cy="50" r="5" fill="#FFD700" opacity="0.3"/>
+    </pattern>
+    
+    <!-- Secondary pattern for overlay -->
+    <pattern id="overlay-pattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="1" fill="#FFFFFF" opacity="0.3"/>
+      <circle cx="0" cy="0" r="1" fill="#FFFFFF" opacity="0.3"/>
+      <circle cx="0" cy="50" r="1" fill="#FFFFFF" opacity="0.3"/>
+      <circle cx="50" cy="0" r="1" fill="#FFFFFF" opacity="0.3"/>
+      <circle cx="50" cy="50" r="1" fill="#FFFFFF" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with UK pattern -->
+  <rect width="500" height="500" fill="url(#uk-pattern)"/>
+  
+  <!-- Overlay pattern -->
+  <rect width="500" height="500" fill="url(#overlay-pattern)"/>
+  
+  <!-- Subtle diagonal lines -->
+  <line x1="0" y1="0" x2="500" y2="500" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+  <line x1="500" y1="0" x2="0" y2="500" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+</svg> 

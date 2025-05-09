@@ -1,0 +1,15 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="pattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L60 60 M60 0 L0 60" stroke="#000000" stroke-width="0.5" fill="none" />
+      <circle cx="30" cy="30" r="3" fill="#CF142B" opacity="0.2" />
+      <circle cx="0" cy="0" r="3" fill="#00247D" opacity="0.2" />
+      <circle cx="60" cy="0" r="3" fill="#00247D" opacity="0.2" />
+      <circle cx="0" cy="60" r="3" fill="#00247D" opacity="0.2" />
+      <circle cx="60" cy="60" r="3" fill="#00247D" opacity="0.2" />
+      <path d="M30 0 V60" stroke="#FFD700" stroke-width="0.5" opacity="0.2" />
+      <path d="M0 30 H60" stroke="#FFD700" stroke-width="0.5" opacity="0.2" />
+    </pattern>
+  </defs>
+  <rect width="60" height="60" fill="url(#pattern)" />
+</svg> 
